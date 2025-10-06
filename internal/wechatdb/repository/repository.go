@@ -6,9 +6,9 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/rs/zerolog/log"
 
-	"github.com/sjzar/chatlog/internal/errors"
-	"github.com/sjzar/chatlog/internal/model"
-	"github.com/sjzar/chatlog/internal/wechatdb/datasource"
+	"github.com/sdpong/chatlogold/internal/errors"
+	"github.com/sdpong/chatlogold/internal/model"
+	"github.com/sdpong/chatlogold/internal/wechatdb/datasource"
 )
 
 // Repository 实现了 repository.Repository 接口
