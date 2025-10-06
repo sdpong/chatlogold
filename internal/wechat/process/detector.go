@@ -1,9 +1,9 @@
 package process
 
 import (
-	"github.com/sdpong/chatlog/internal/wechat/model"
-	"github.com/sdpong/chatlog/internal/wechat/process/darwin"
-	"github.com/sdpong/chatlog/internal/wechat/process/windows"
+	"github.com/sdpong/chatlogold/internal/wechat/model"
+	"github.com/sdpong/chatlogold/internal/wechat/process/darwin"
+	"github.com/sdpong/chatlogold/internal/wechat/process/windows"
 )
 
 type Detector interface {
