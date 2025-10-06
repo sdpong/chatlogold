@@ -3,8 +3,8 @@ package decrypt
 import (
 	"path/filepath"
 
-	"github.com/sdpong/chatlog/internal/wechat/decrypt/common"
-	"github.com/sdpong/chatlog/pkg/util/dat2img"
+	"github.com/sdpong/chatlogold/internal/wechat/decrypt/common"
+	"github.com/sdpong/chatlogold/pkg/util/dat2img"
 )
 
 type Validator struct {
