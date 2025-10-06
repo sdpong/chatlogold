@@ -43,21 +43,21 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 - **macOS 用户**：获取密钥前需[临时关闭 SIP](#macos-版本说明)
 - **Windows 用户**：遇到界面显示问题请[使用 Windows Terminal](#windows-版本说明)
 - **集成 AI 助手**：查看 [MCP 集成指南](#mcp-集成)
-- **无法获取密钥**：查看 [FAQ](https://github.com/sdpong/chatlog/issues/197)
+- **无法获取密钥**：查看 [FAQ](https://github.com/sdpong/chatlogold/issues/197)
 
 ## 安装指南
 
 ### 从源码安装
 
 ```bash
-go install github.com/sjzar/chatlog@latest
+go install github.com/sdpong/chatlogold@latest
 ```
 
 > 💡 **提示**: 部分功能有 cgo 依赖，编译前需确认本地有 C 编译环境。
 
 ### 下载预编译版本
 
-访问 [Releases](https://github.com/sdpong/chatlog/releases) 页面下载适合您系统的预编译版本。
+访问 [Releases](https://github.com/sdpong/chatlogold/releases) 页面下载适合您系统的预编译版本。
 
 ## 使用指南
 
