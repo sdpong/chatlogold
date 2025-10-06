@@ -7,9 +7,9 @@ import (
 	"github.com/fsnotify/fsnotify"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/sdpong/chatlog/internal/model"
-	"github.com/sdpong/chatlog/internal/wechatdb/datasource"
-	"github.com/sdpong/chatlog/internal/wechatdb/repository"
+	"github.com/sdpong/chatlogold/internal/model"
+	"github.com/sdpong/chatlogold/internal/wechatdb/datasource"
+	"github.com/sdpong/chatlogold/internal/wechatdb/repository"
 )
 
 type DB struct {
