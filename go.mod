@@ -1,4 +1,4 @@
-module github.com/sdpong/chatlog
+module github.com/sdpong/chatlogold
 
 go 1.24.0
 
