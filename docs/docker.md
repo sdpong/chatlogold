@@ -74,12 +74,12 @@ chatlog 提供了两个镜像源：
 
 **Docker Hub**:
 ```shell
-docker pull sjzar/chatlog:latest
+docker pull sdpong/chatlogold:latest
 ```
 
 **GitHub Container Registry (ghcr)**:
 ```shell
-docker pull ghcr.io/sjzar/chatlog:latest
+docker pull ghcr.io/sdpong/chatlogold:latest
 ```
 
 > 💡 **镜像地址**: 
@@ -130,7 +130,7 @@ version: '3.8'
 
 services:
   chatlog:
-    image: sjzar/chatlog:latest
+    image: sdpong/chatlogold:latest
     restart: unless-stopped
     ports:
       - "5030:5030"  # 可修改主机端口，如 "8080:5030"
