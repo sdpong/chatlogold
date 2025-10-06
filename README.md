@@ -43,7 +43,7 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 - **macOS 用户**：获取密钥前需[临时关闭 SIP](#macos-版本说明)
 - **Windows 用户**：遇到界面显示问题请[使用 Windows Terminal](#windows-版本说明)
 - **集成 AI 助手**：查看 [MCP 集成指南](#mcp-集成)
-- **无法获取密钥**：查看 [FAQ](https://github.com/sjzar/chatlog/issues/197)
+- **无法获取密钥**：查看 [FAQ](https://github.com/sdpong/chatlog/issues/197)
 
 ## 安装指南
 
@@ -57,7 +57,7 @@ go install github.com/sjzar/chatlog@latest
 
 ### 下载预编译版本
 
-访问 [Releases](https://github.com/sjzar/chatlog/releases) 页面下载适合您系统的预编译版本。
+访问 [Releases](https://github.com/sdpong/chatlog/releases) 页面下载适合您系统的预编译版本。
 
 ## 使用指南
 
@@ -120,8 +120,8 @@ docker pull ghcr.io/sjzar/chatlog:latest
 ```
 
 > 💡 **镜像地址**: 
-> - Docker Hub: https://hub.docker.com/r/sjzar/chatlog
-> - GitHub Container Registry: https://ghcr.io/sjzar/chatlog
+> - Docker Hub: https://hub.docker.com/r/sdpong/chatlog
+> - GitHub Container Registry: https://ghcr.io/sdpong/chatlog
 
 **2. 运行容器**
 
