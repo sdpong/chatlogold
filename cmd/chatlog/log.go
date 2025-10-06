@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/sdpong/chatlog/pkg/util"
+	"github.com/sdpong/chatlogold/pkg/util"
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
