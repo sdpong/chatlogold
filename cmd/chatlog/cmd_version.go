@@ -3,7 +3,7 @@ package chatlog
 import (
 	"fmt"
 
-	"github.com/sdpong/chatlog/pkg/version"
+	"github.com/sdpong/chatlogold/pkg/version"
 
 	"github.com/spf13/cobra"
 )
