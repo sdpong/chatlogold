@@ -11,11 +11,11 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/rs/zerolog/log"
 
-	"github.com/sdpong/chatlog/internal/errors"
-	"github.com/sdpong/chatlog/internal/wechat"
-	"github.com/sdpong/chatlog/internal/wechat/decrypt"
-	"github.com/sdpong/chatlog/pkg/filemonitor"
-	"github.com/sdpong/chatlog/pkg/util"
+	"github.com/sdpong/chatlogold/internal/errors"
+	"github.com/sdpong/chatlogold/internal/wechat"
+	"github.com/sdpong/chatlogold/internal/wechat/decrypt"
+	"github.com/sdpong/chatlogold/pkg/filemonitor"
+	"github.com/sdpong/chatlogold/pkg/util"
 )
 
 var (
