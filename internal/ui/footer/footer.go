@@ -3,8 +3,8 @@ package footer
 import (
 	"fmt"
 
-	"github.com/sdpong/chatlog/internal/ui/style"
-	"github.com/sdpong/chatlog/pkg/version"
+	"github.com/sdpong/chatlogold/internal/ui/style"
+	"github.com/sdpong/chatlogold/pkg/version"
 
 	"github.com/rivo/tview"
 )
