@@ -7,15 +7,15 @@ import (
 	"strings"
 
 	"github.com/rs/zerolog/log"
-	"github.com/sdpong/chatlog/internal/chatlog/conf"
-	"github.com/sdpong/chatlog/internal/chatlog/ctx"
-	"github.com/sdpong/chatlog/internal/chatlog/database"
-	"github.com/sdpong/chatlog/internal/chatlog/http"
-	"github.com/sdpong/chatlog/internal/chatlog/wechat"
-	iwechat "github.com/sdpong/chatlog/internal/wechat"
-	"github.com/sdpong/chatlog/pkg/config"
-	"github.com/sdpong/chatlog/pkg/util"
-	"github.com/sdpong/chatlog/pkg/util/dat2img"
+	"github.com/sdpong/chatlogold/internal/chatlog/conf"
+	"github.com/sdpong/chatlogold/internal/chatlog/ctx"
+	"github.com/sdpong/chatlogold/internal/chatlog/database"
+	"github.com/sdpong/chatlogold/internal/chatlog/http"
+	"github.com/sdpong/chatlogold/internal/chatlog/wechat"
+	iwechat "github.com/sdpong/chatlogold/internal/wechat"
+	"github.com/sdpong/chatlogold/pkg/config"
+	"github.com/sdpong/chatlogold/pkg/util"
+	"github.com/sdpong/chatlogold/pkg/util/dat2img"
 )
 
 // Manager 管理聊天日志应用
