@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sdpong/chatlog/internal/model/wxproto"
-	"github.com/sdpong/chatlog/pkg/util/zstd"
+	"github.com/sdpong/chatlogold/internal/model/wxproto"
+	"github.com/sdpong/chatlogold/pkg/util/zstd"
 	"google.golang.org/protobuf/proto"
 )
 
