@@ -3,11 +3,11 @@ package key
 import (
 	"context"
 
-	"github.com/sdpong/chatlog/internal/errors"
-	"github.com/sdpong/chatlog/internal/wechat/decrypt"
-	"github.com/sdpong/chatlog/internal/wechat/key/darwin"
-	"github.com/sdpong/chatlog/internal/wechat/key/windows"
-	"github.com/sdpong/chatlog/internal/wechat/model"
+	"github.com/sdpong/chatlogold/internal/errors"
+	"github.com/sdpong/chatlogold/internal/wechat/decrypt"
+	"github.com/sdpong/chatlogold/internal/wechat/key/darwin"
+	"github.com/sdpong/chatlogold/internal/wechat/key/windows"
+	"github.com/sdpong/chatlogold/internal/wechat/model"
 )
 
 // Extractor 定义密钥提取器接口
