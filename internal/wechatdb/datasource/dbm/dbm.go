@@ -11,9 +11,9 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/rs/zerolog/log"
 
-	"github.com/sdpong/chatlog/internal/errors"
-	"github.com/sdpong/chatlog/pkg/filecopy"
-	"github.com/sdpong/chatlog/pkg/filemonitor"
+	"github.com/sdpong/chatlogold/internal/errors"
+	"github.com/sdpong/chatlogold/pkg/filecopy"
+	"github.com/sdpong/chatlogold/pkg/filemonitor"
 )
 
 type DBManager struct {
